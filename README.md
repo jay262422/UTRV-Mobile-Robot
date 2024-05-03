@@ -1,59 +1,84 @@
 # UTRV-Mobile-Robot
-This repository made to save project named "Unmanned Tracked Reconnaissance Vehicle (UTRV) Mobile Robot" made in course ENR508 Mobile Robots lets Build one offerd in Ahmedabad University. 
+This repository contains the project named "Unmanned Tracked Reconnaissance Vehicle (UTRV) Mobile Robot," made in the course ENR508 Mobile Robots Let Build One offered at Ahmedabad University. The project involves controlling a robot (tank-type) using a Raspberry Pi, along with a web interface for controlling the robot's movements and viewing a live stream from a Foscam camera.
 
-# Robot Control System
+## Table of Contents
+- [Overview](#overview)
+- [Components](#components)
+  - [Mechanical Components](#mechanical-components)
+  - [Electrical Components](#electrical-components)
+  - [Website Interface](#website-interface)
+- [Assembly](#assembly)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
 
-This repository contains the code and documentation for a Robot Control System project. The project involves controlling a robot (tank-type) using a Raspberry Pi, along with a web interface for controlling the robot's movements and viewing a live stream from a Foscam camera.
+## Overview
 
-## Contents
+The UTRV-Mobile-Robot project involes a designing and building a mobile robot that is capable of remote controllling using a Raspberry Pi, along with a web interface for controlling the robot's movements and viewing a live stream from a Foscam camera.
 
-1. [Introduction](#introduction)
-2. [Folders](#folders)
-3. [Features](#features)
-4. [Setup](#setup)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
+## Components
 
-## Introduction
+### Mechanical Components (CAD Folder)
+- CAD drawings and designs for the robot's chassis, motor mounts, and other mechanical parts.
 
-The Robot Control System project aims to provide a user-friendly interface for controlling a robot remotely. The system consists of a Raspberry Pi mounted on the robot, which communicates with a web interface via WebSocket. The web interface allows users to control the robot's movements and view a live stream from a Foscam camera.
+### Electrical Components (RaspberryPi-code Folder)
+- Raspberry Pi-based control system for communication with the motors, sensors, and camera.
+- Python scripts for controlling motor movements, interacting with sensors, and streaming live video.
 
-## Folders
+### Website Interface (Website-code Folder)
+- HTML, CSS, and JavaScript files for the user interface hosted on a web server.
+- Allows users to control the robot remotely, view live video feed, and change settings.
 
-- **CAD**: Contains CAD designs for the robot.
-- **Raspberrypi-code**: Contains code for controlling the robot using a Raspberry Pi.
-- **Website-code**: Contains code for the web interface.
-- **Media**: Contains photos and videos of the robot in action.
-- **Report**: Contains project documentation and reports.
+## Assembly
 
-## Features
+Follow the steps below to assemble the UTRV-Mobile-Robot:
 
-- Remote control of the robot's movements (forward, backward, left, right).
-- Live streaming from a Foscam camera.
-- WebSocket communication between the Raspberry Pi and the web interface.
-- User-friendly web interface for controlling the robot.
+1. **Base Plate Assembly**:
+   - Take the base plate and affix all the L-section clamps, 2-hole angle clamps, and Motor L clamps onto it using M4 nuts and bolts.
+   - Place the two side plates on both sides and attach them to the base plate with the L section and 2-hole angle clamps using M4 nuts and bolts.
 
-## Setup
+2. **Motor Installation**:
+   - Fix the 4 motors onto the base plate using C-clamps and support plates at their designated locations with M6 nuts and bolts.
+   - Insert the sprocket shaft assembly into the motors and secure them using M4 grub screws.
 
-1. Clone this repository to your local machine.
-2. Navigate to the `Website-code` folder and host the web interface on a web server.
-3. Connect the Raspberry Pi to the same network as the web server.
-4. Install the necessary dependencies on the Raspberry Pi.
-5. Configure the WebSocket connection between the Raspberry Pi and the web interface.
-6. Access the web interface from a browser and start controlling the robot.
+3. **Top Plate and Rollers**:
+   - Attach the remaining L-section clamps to the upper side of the side plate to mount the top plate using M4 nuts and bolts.
+   - Install rollers onto the side plate at their dedicated positions using M12 nuts, bolts, and washers.
+
+4. **Additional Components**:
+   - Hammer the sprockets onto the sprocket shafts to secure them together through friction.
+   - Fix the front and back brackets onto the side plate with M4 nuts and bolts.
+
+5. **Final Assembly**:
+   - Mount the FOSCAM onto the top plate using M6 bolts and nuts.
+   - Secure the top plate onto the base assembly using M10 long bolts and M4 bolts attached to the L-section clamps.
+   - Attach the front and back plates to the side plates using M3 screws.
+
+6. **Completion**:
+   - Once all components are assembled, the mobile robot is ready for use.
 
 ## Usage
 
-1. Open the web interface in a browser.
-2. Use the control buttons to move the robot (forward, backward, left, right).
-3. View the live stream from the Foscam camera.
-4. Enjoy controlling the robot remotely!
+1. Ensure all components are properly assembled and connected according to the provided instructions.
+2. Power on the Raspberry Pi and connect it to the same Wi-Fi network as the controlling device (e.g., laptop, smartphone).
+3. Access the web interface hosted on the Raspberry Pi's IP address using a web browser.
+4. Use the interface to control the robot's movements, view the live video stream, and adjust settings as needed.
 
 ## Contributing
 
-Contributions to this project are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request.
+This project was developed as part of a university course, but contributions from future students or enthusiasts are welcome. Feel free to fork the repository, make improvements, and submit pull requests to contribute to the project's ongoing development.
 
-## License
+## Credits
 
-This project is licensed under the [MIT License](LICENSE).
+
+
+### Team Members
+- John Doe (Enrollment Number: ABC123)
+  - Mechanical Design and Assembly
+  - Email: john.doe@example.com, Phone: +1234567890
+- Jane Smith (Enrollment Number: DEF456)
+  - Electrical and Software Development
+  - Email: jane.smith@example.com, Phone: +9876543210
+- Emily Johnson (Enrollment Number: GHI789)
+  - Project Supervision
+  - Email: emily.johnson@example.com, Phone: +1122334455
