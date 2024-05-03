@@ -1,0 +1,145 @@
+/* Resetting margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Container styles*/ 
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container styles */
+#loginForm {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Form title styles */
+#loginForm h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form input styles */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Form button styles */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Error message styles */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Main control container styles */
+#mainControls {
+    text-align: center;
+}
+
+/* Control button styles */
+.control-button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.control-button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styling for the live stream container */
+#liveStream {
+    width: 100%; /* Adjust width as needed */
+    max-width: 550px; /* Maximum width to ensure it's not too wide on larger screens */
+    margin: 0 auto; /* Center the container horizontally */
+    overflow: hidden; /* Hide any overflow beyond the container */
+    margin-bottom: 0px;
+}
+
+/* Style for the live stream image */
+#liveStream img {
+    display: block; /* Ensure the image fills the container */
+    width: 100%; /* Fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 8px; /* Rounded corners for aesthetics */
+}
+
+/* Additional styling for the camera controls container */
+#cameraControls {
+    text-align: center;
+}
+
+/* Adjustments for camera control buttons */
+#cameraControls .control-group {
+    display: flex;
+    justify-content: center;
+}
+
+/* Adjustments for camera control buttons */
+#cameraControls .control-group button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#cameraControls .control-group button:hover {
+    background-color: #45a049;
+}

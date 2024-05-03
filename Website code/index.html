@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Control - Robot Control System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Main Control - Robot Control System</h1>
+    </header>
+    <!-- script src="main.js"></script -->
+    <div id="container">
+        
+        <!-- Live stream and camera control side by side -->
+        <div id="liveStream">
+            <h2>Live Stream</h2>
+            <div id="videoContainer">
+                <img src="http://192.168.229.10:88/videostream.cgi?user=lab308&pwd=lab308" alt="Live Stream">
+            </div>
+        </div>
+        <div id="cameraControls">
+            <h2>Camera Control</h2>
+            <!-- Camera control buttons -->
+            <div class="control-group">
+                <button id="upBtn" class="control-button">Up</button>
+            </div>
+            <div class="control-group">
+                <button id="leftCBtn" class="control-button">Left</button>
+                <button id="centerBtn" class="control-button">Center</button>
+                <button id="rightCBtn" class="control-button">Right</button>
+            </div>
+            <div class="control-group">
+                <button id="downBtn" class="control-button">Down</button>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <!-- Car control section -->
+        <div id="mainControls">
+            <h2>Control the Robot</h2>
+            <div class="control-group">
+                <button id="forwardBtn" class="control-button">Forward</button>
+            </div>
+            <div class="control-group">
+                <button id="leftBtn" class="control-button">Left</button>
+                <button id="backwardBtn" class="control-button">Backward</button>
+                <button id="rightBtn" class="control-button">Right</button>
+                
+            </div>
+            <div class="control-group">
+                <button id="stopBtn" class="control-button">Stop</button>
+            </div>
+            <div id="toggleControls">
+                <label for="toggleWASD">Enable WASD Keyboard Controls:</label>
+                <input type="checkbox" id="toggleWASD">
+            </div>
+            <div id="speedControls">
+                <label for="speedSlider">Speed:</label>
+                <input type="range" id="speedSlider" min="1" max="10" value="5">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Robot Control System</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="websocket_client.js"></script>
+</body>
+</html>
