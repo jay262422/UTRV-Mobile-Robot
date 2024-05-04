@@ -73,12 +73,15 @@ This project was developed as part of a university course, but contributions fro
 
 
 ### Team Members
-- John Doe (Enrollment Number: ABC123)
+- Jog Dasai (Enrollment Number: AU2040089)
   - Mechanical Design and Assembly
-  - Email: john.doe@example.com, Phone: +1234567890
-- Jane Smith (Enrollment Number: DEF456)
+  - Email: , Phone: 
+- Jay Patel (Enrollment Number: AU2040014)
   - Electrical and Software Development
-  - Email: jane.smith@example.com, Phone: +9876543210
-- Emily Johnson (Enrollment Number: GHI789)
-  - Project Supervision
-  - Email: emily.johnson@example.com, Phone: +1122334455
+  - Email: jay.p7@ahduni.edu.in, Phone: +91 9106442811
+- Nihar Kalolia (Enrollment Number: AU2040049)
+  - Team Leader
+  - Email: , Phone: 
+- Krish Panchal (Enrollment Number: AU2140086)
+  - Fab Work
+  - Email: , Phone: 
